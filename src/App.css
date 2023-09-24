@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cabin&family=DM+Sans:opsz@9..40&family=Fira+Sans&family=Lora:ital@1&family=Oswald&family=Playfair+Display&family=Roboto+Slab&family=Roboto:wght@100;300&family=Source+Code+Pro&family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cabin&family=DM+Sans:opsz@9..40&family=Fira+Sans&family=Josefin+Sans&family=Lora:ital@1&family=Oswald&family=Playfair+Display&family=Roboto+Slab&family=Roboto:wght@100;300&family=Source+Code+Pro&family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cabin&family=DM+Sans:opsz@9..40&family=Fira+Sans&family=Josefin+Sans&family=Lora:ital@1&family=Oswald&family=Playfair+Display&family=Roboto+Slab&family=Roboto:wght@100;300&family=Source+Code+Pro&family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap');
+
+body{
+  background: #111727;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading{
+  background: url("C://Users//LENOVO//OneDrive//Desktop//Mern Stack Tutorial//React//arnab//quote-app//src//bg.jpg");
+  background-size: cover;
+  width: 675px;
+  height: 500px;
+  border-radius: 26px;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading h1{
+ font-size: 2em;
+ font-family: 'Josefin Sans', sans-serif;
+  
+}
+
+.heading h4{
+  font-size: 1rem;
+  font-family: 'Lora', serif;
+  margin-top: 12px auto;
+}
+
+.heading h3{
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.btn{
+  display: block;
+  border: 2px solid #008CBA;
+  border: none;
+  background-color: #fff;
+ /* background: transparent;*/
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 25px;
+  font-family: 'Lora', serif;
+  cursor: pointer;
+  outline: none;
+  transition: background 1s, color 1s;
+  font-weight: 500;
+  margin-bottom:-49px;
+  margin-right: 250px;
+
+}
+
+.btn:hover{
+  background: #008CBA;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.twit{
+  display: block;
+  border: 2px solid #008CBA;
+  border: none;
+  background-color: #fff;
+ /* background: transparent;*/
+  padding: 15px;
+  border-radius: 45px;
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
+  transition: background 1s, color 1s;
+  font-weight: 500;
+  margin-left: 35px;
+  margin-bottom:-50px;
+  display: flex;
+}
+
+.twit:hover{
+  background: #008CBA;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.send{
+  display: block;
+  border: 2px solid #008CBA;
+  border: none;
+  background-color: #fff;
+ /* background: transparent;*/
+  padding: 15px;
+  border-radius: 45px;
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
+  transition: background 1s, color 1s;
+  font-weight: 500;
+  margin-left: 200px;
+  display: flex;
+}
+
+.send:hover{
+  background: #008CBA;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
