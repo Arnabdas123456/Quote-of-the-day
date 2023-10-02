@@ -32,9 +32,9 @@ useEffect(() => {
    )
   }
   return (
-    <div className="App">
+    <div className="App"> //Html code start here 
       <div className='heading'>
-      <h1>Quote of the day</h1>
+      <h1>Quote of the day</h1> 
       <h4>{quote}</h4>
       <h3>Aurthor - {aurthor}</h3>
       
